@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-section{
+.top-bn{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ section{
     width: 90%;
 }
 h1{
-    font-size: 36px;
+    font-size: 40px;
 }
 h2{
     font-size: 28px;
@@ -26,13 +26,41 @@ h2{
 .name{
     color: orange;
 }
+h4{
+    margin-bottom: -13px;
+}
+p{
+    font-size: 22px;
+    line-height: 1.7;
+}
 .btn{
     text-decoration: none;
-   background-color: tomato;
+    background-image: radial-gradient(tomato, orange);
     color: white;
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 500;
     padding: 10px 40px;
     border-radius: 5px;
+    margin-top: 10px;
+}
+
+.dream-big{
+    display: flex;
+    margin-top: 10vw;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.dream h2{
+    font-size: 40px;
+}
+.dream-big h4{
+    font-size: 28px;
+}
+.dream-big p{
+    font-size: 22px;
+    line-height: 1.7;
 }
