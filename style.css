@@ -3,18 +3,21 @@ body{
     margin: 0;
     padding: 0;
 }
-.top-bn{
+.flexible-section{
     display: flex;
+    margin-bottom: 10vw;
+}
+.top-bn{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10%;
 }
-.half-header{
+.half-width{
     width: 50%;
     padding-left: 5%;
 }
-.half-header img{
+.half-width img{
     width: 90%;
 }
 h1{
@@ -44,11 +47,6 @@ p{
     border-radius: 5px;
     margin-top: 10px;
 }
-
-.dream-big{
-    display: flex;
-    margin-top: 10vw;
-}
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
@@ -63,4 +61,41 @@ p{
 .dream-big p{
     font-size: 22px;
     line-height: 1.7;
+}
+.section3-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.section3-area h2{
+    padding-left: 5%;
+    font-size: 40px;
+}
+.exprience-item h3{
+    font-size: 36px;
+}
+
+.exprience-item p{
+    font-size: 22px;
+    line-height: 1.7;
+}
+.exprience-item{
+    width: 40%;
+    padding-left: 35px;
+    padding-top: 3%;
+    box-shadow: 10px 10px 50px gray;
+}
+.a1{
+    margin-left: 5%;
+    margin-right: 2.5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+.a2{
+    margin-right: 5%;
+    margin-left: 2.5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
